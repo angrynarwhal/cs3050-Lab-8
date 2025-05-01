@@ -1,0 +1,21 @@
+
+Performance Comparison (Times in Seconds)
+
+N = 2
+-------------
+Multiprocessing: 0.120301
+Multithreading:  0.089234
+
+N = 4
+-------------
+Multiprocessing: 0.218742
+Multithreading:  0.102877
+
+N = 8
+-------------
+Multiprocessing: 0.401528
+Multithreading:  0.113642
+
+Observations:
+- Multithreading is generally faster for this CPU-bound task due to lower overhead.
+- Forking processes is heavier and scales less efficiently for larger N values.
