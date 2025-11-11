@@ -27,13 +27,13 @@ CS 3050: Systems Programming Lab — Multiprocessing vs Multithreading in C
 
 This lab explores the difference between **process-based** and **thread-based** parallelism using C.
 
-### 🔧 Compilation Instructions
+### Compilation Instructions
 
-#### 🧵 Using `pthread` (POSIX Threads)
+#### Using `pthread` (POSIX Threads)
 
 The `pthread` library is used for multithreading in C on Unix-based systems like Linux and macOS.
 
-#### ✅ How to Compile with `pthread`
+#### How to Compile with `pthread`
 
 You **must link** against the pthread library when compiling.
 
@@ -53,7 +53,7 @@ Both commands compile your program, but `-pthread` is preferred because it also 
 
 ---
 
-### 📌 Include the pthread Header
+### Include the pthread Header
 
 In your C source file:
 
@@ -63,7 +63,7 @@ In your C source file:
 
 ---
 
-### 🚫 Windows Notes
+### Windows Notes
 
 This lab is intended for **Unix-based systems**. If you're on Windows:
 
@@ -73,7 +73,7 @@ This lab is intended for **Unix-based systems**. If you're on Windows:
 
 ---
 
-### 🧪 Sample Run
+### Sample Run
 
 ```bash
 # Compile
@@ -85,7 +85,7 @@ gcc -pthread multithreading.c -o multithreading
 
 ---
 
-### 📁 Files to Submit
+### Files to Submit
 
 - `multiprocessing.c`
 - `multithreading.c`
